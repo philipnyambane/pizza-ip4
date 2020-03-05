@@ -10,7 +10,7 @@ function myFunction(){
     alert(name + " thank you for contacting us . we have recieved your message");
 };
 
-var sizePrice = [1200, 900, 650]
+var sizePrice = [1500, 1000, 650]
 var deliverPrices = [0, 300];
 $(document).ready(function () {
     $('form#myForm').submit(function (event) {

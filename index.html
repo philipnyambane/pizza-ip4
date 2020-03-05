@@ -1,105 +1,244 @@
+ 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        e="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="https://kit.fontawesome.com/85493ca592.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="js/script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/85493ca592.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/script.js"></script>
+
     
-        
-    
-                    <div class="form-group" required>
-                      <label for="sel1">number of pizza:</label>
-                  
-                      <input type="number" id="qty" class="form-control" min="1" required>
-                      
-                    </div>
-                    <div class="form-group" required="">
-                      <label for="sel1">Delivery option:</label>
-                      <select class="form-control" id="pick">
-                        <option value="1">Self pick up</option>
-                        <option value="2">Delivered</option>
-    
-                      </select>
-                    </div>
-                    <div class="form-group">
-    
-                      <button type="submit" class="btn btn-danger btn-block">checkout</button>
-    
-                    </div>
-                  </form>
-                </div>
-    
-              </div>
+    <title >Pizza Delight </title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+            <a href="index.html"></a><img src="image/pizza.png" alt="image of l'unico logo"></a>
             </div>
+            <img src="" alt="">
+        
+           <div class="title">
+              <h1>Delightful pizza</h1>
+            </div>
+            <ul class="navi">
+              <li>
+                <a href="" class="list-group-item list-group-item-action">About Us</a>
+              </li>
+              <li>
+                <a href="" class="list-group-item list-group-item-action">Order Pizza</a>
+              </li>
+              <li>
+                <a href="" class="list-group-item list-group-item-action">Contact Us</a>
+              </li>
+            </ul>
+          <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>  
+            </nav>
+        </div>
+    <div class="container">
+    <div id="nav" class="navbar navbar-light style="background-color: #e3f2fd;" class="row col-md-12" >
+        <a class="navbar-brand" href="#">
+            <!-- <img src="images/pizza-logo.jpg" width="150" height="150"  alt="little pizza"> -->
+            <h2 class="text-center"> Delightful pizza</h2>
+        </a>
+    </div>
+        <p class="welcome">Hello, pizza lover! Here is your place to make your order-a-pizza, the way you like it, dream come true. You are free to try any of our different tantalizing tastes. 
+            Your dreams come true on a silver platter, Lol :-) <br> <strong>Welcome!</strong>  
+        </p>
+ 
+    <section id="process">
             <div class="container">
-              <div class="row">
-                <div class="col-md-6 ">
-              <div id="text-cont">
-                <h2>Contacts Us</h2>
-              </div>
-                <div id="contact">
-                <form id="contactform">
-                  <label for="name">Name</label>
-                  <input type="text" id="name" name="name" >
-                  <label for="email">E-mail</label>
-                  <input type="text" id="email" name="email" >
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message"></textarea>
-                  <input type="submit" onclick = "myFunction()" value="submit">
-                </form>
-              </div>
-            </div>
-            </div>
-          </div>     
-            </section>
-            <footer class="footer-distributed">
-    
-                <div class="footer-left">
-        
-                    <h3>Company<span>logo</span></h3>
-        
-                    <p class="footer-links">
-                        <a href="#" class="link-1">Home</a>
-                        
-                        <a href="#">Blog</a>
-                    
-                        <a href="#">Pricing</a>
-                    
-                        <a href="#">About</a>
-                        
-                        <a href="#">Faq</a>
-                        
-                        <a href="#">Contact</a>
-                    </p>
-        
-                    <p class="footer-company-name">Company Name © 2020</p>
+                <h2 class="pt-5 text-center">How to Order</h2>
+                <hr class="divider my-4">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-pizza-slice text-primary mb-4 text-danger"></i>
+                            <h3 class="h4 mb-2">Choose Size</h3>
+                            <p class="text-muted">Choose the size of the pizza you want whether small, medium or large.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-cookie text-primary mb-4 text-danger"></i>
+                            <h3 class="h4 mb-2">Choose Crust</h3>
+                            <p class="text-muted">Choose the type of crust you would like.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-bacon text-primary mb-4 text-danger"></i>
+                            <h3 class="h4 mb-2">Choose Toppings</h3>
+                            <p class="text-muted">Pick from our fresh toppings.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-cart-arrow-down text-primary mb-4 text-danger"></i>
+                            <h3 class="h4 mb-2">Place Order</h3>
+                            <p class="text-muted mb-0">Specify whether the order is for pickup or delivery then place order.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-        
-                <div class="footer-center">
-        
-                    <div>
-                        <i class="fa fa-map-marker"></i>
-                        <p><span>mombasa</span>kenya</p>
-                    </div>
-        
-                    <div>
-                        <i class="fa fa-phone"></i>
-                        <p>+254.555.000.5555</p>
-                    </div>
-        
-                    <div>
-                        <i class="fa fa-envelope"></i>
-                        <p><a href="">support@company.com</a></p>
-                    </div>
-        
-                </div>
-        
+            </div>
     
+        </section>
+        <div class="row">
+            <div class="col-md-4 mx-auto py-2">
+              <form id="myForm">
+                <div class="form-group">
+                  <label for="sel1">Select size:</label>
+                  <select class="form-control" id="size">
+                    <option value="1">Large-@-1200</option>
+                    <option value="2">Medium-@-900</option>
+                    <option value="3">Small-@-650</option>
+                  </select>
+                </div>
+
+
+                <div class="form-group">
+                  <label for="sel1">Select crust:</label>
+                  <select class="form-control" id="crust">
+                    <option>Cripsy</option>
+                    <option>Stuffed</option>
+                    <option>Gluten-free</option>
+                    <option>Flatbread Crust</option>
+                    <option>Focaccia</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="sel1">Select topping:</label>
+                  <select class="form-control" id="top">
+                    <option>Pepperoni</option>
+                    <option>Green peppers</option>
+                    <option>onions</option>
+                    <option>Sausage</option>
+                    <option>Extra cheese</option>
+                    <option>Mushrooms</option>
+                    <option>Bacon</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="sel1">Pizza type:</label>
+                  <br> <select class="form-control" id="type">
+                    <option>Maranira</option>
+                    <option>Margherita</option>
+                    <option>Pizza Calzone</option>
+                    <option>Vegerina</option>
+                    <option>Grilled-caprese</option>
+                    <option>Fontana</option>
+                    <option>Funghi</option>
+                    <option>Mimosa</option>
+                  </select>
+                </div>
+
+                <div class="form-group" required>
+                  <label for="sel1">number of pizza:</label>
+              
+                  <input type="number" id="qty" class="form-control" min="1" required>
+                  
+                </div>
+                <div class="form-group" required="">
+                  <label for="sel1">Delivery option:</label>
+                  <select class="form-control" id="pick">
+                    <option value="1">Self pick up</option>
+                    <option value="2">Delivered</option>
+
+                  </select>
+                </div>
+                <div class="form-group">
+
+                  <button type="submit" class="btn btn-danger btn-block">checkout</button>
+
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ">
+          <div id="text-cont">
+            <h2>Contacts Us</h2>
+          </div>
+            <div id="contact">
+            <form id="contactform">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" >
+              <label for="email">E-mail</label>
+              <input type="text" id="email" name="email" >
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+              <input type="submit" onclick = "myFunction()" value="submit">
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>     
+        </section>
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+    
+                <h3>Company<span>logo</span></h3>
+    
+                <p class="footer-links">
+                    <a href="#" class="link-1">Home</a>
+                    
+                    <a href="#">Blog</a>
+                
+                    <a href="#">Pricing</a>
+                
+                    <a href="#">About</a>
+                    
+                    <a href="#">Faq</a>
+                    
+                    <a href="#">Contact</a>
+                </p>
+    
+                <p class="footer-company-name">Company Name © 2020</p>
+            </div>
+    
+            <div class="footer-center">
+    
+                <div>
+                    <i class="fa fa-map-marker"></>
+                    <p><span>nairobi</span>kenya</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+254726942128</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="">support@company.com</a></p>
+                </div>
+    
+            </div>
+    
+
+    
+        </footer>
         
-            </footer>
-            
-       
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="js/script.js"></script>
+    
+</body>
+</html>
+</html>

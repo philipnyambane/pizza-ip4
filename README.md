@@ -1,13 +1,30 @@
-####Tittle
-A website where my customers order different sizes of pizza
+## project name
+ACTIVISM APP
 
-####Description
-In this website customers are able to order different pizzas or can cancel an order.
-Customers can order delivery of pizza to a given locality they are
+## about
+This is a website meant to help conduct demonstrations in a more organozed and civilized manner.
 
-####Technology used
-HTML
-CSS
-Bootstrap
-Script.js
-Jquery
+## Author
+Philip Nyambane
+George Munene
+Geofrey Kinuthia
+Brenda Muthoni
+Mercy Wanjiru
+
+## Technologies used
+bootstrap CSS3 HTML5 JavaScript jQuery
+
+## Dependencies
+This webpage requires a jQuery and Bootstrap CDN link or an offline framework to run.
+
+## installation instructions
+All that is needed is a web browser.click on index.html and enjoy.
+
+## gh-pages
+Here is the link to gh-pages : georgemunene.github.io/pizzacounty
+
+## Contact
+contact me via github @georgemunene.
+
+## License
+This is a free product.
